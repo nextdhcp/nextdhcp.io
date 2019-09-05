@@ -1,0 +1,147 @@
+baseURL: https://nextdhcp.io/
+languageCode: en-us
+title: NextDHCP
+theme: hugo-fresh
+
+params:
+  navbarlogo:
+   image: logos/nextdhcp.svg
+   link: /
+  font:
+    name: "Lato"
+    sizes: [400,600]
+  hero:
+    title: DHCP. Just simple.
+    subtitle: NextDHCP is a DHCP server chaining middlewares. It's similar to CoreDNS and Caddy
+    buttontext: Get started
+    buttonlink: "https://github.com/nextdhcp/nextdhcp"
+    image: logos/nextdhcp-wo-text.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    #clientlogos:
+    #- something
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Github
+    url: https://github.com/nextdhcp/nextdhcp
+  - title: Docs
+    sublinks:
+    - title: Getting Started
+      url: /
+    - title: Plugins
+      url: /
+    - title: Contributing
+      url: /
+  - title: Download
+    url: https://github.com/nextdhcp/nextdhcp/releases
+    button: true
+  
+  #section1:
+  #  title: Wait, what?
+  #  subtitle: What NextDHCP is about
+  #  tiles:
+  #  - title: Simple usage
+  #    icon: mouse-globe
+  #    text: Configuring a DHCP server never was that simple
+  #    url: /
+  #    buttonText: Show me
+#
+  #  - title: Open Source
+  #    icon: laptop-cloud
+  #    text: NextDHCP is written Go and completely OpenSource
+  #    url: https://github.com/nextdhcp/nextdhcp
+  #    buttonText: Source Code
+  #  
+  #  - title: Plugins
+  #    icon: plug-cloud
+  #    text: Customize and extend through plugins
+  #    url: /
+  #    buttonText: All plugins
+
+  section2:
+    title: Wait, what?
+    subtitle: What NextDHCP is about
+    features:
+    - title: Simple usage
+      text: Configuring a DHCP server never was that simple. For most home-users you don't even need a configuration
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: laptop-globe.svg
+
+    - title: Open Source
+      text: NextDHCP is a multi-threaded DHCP written in Go and completely Open Source. Checkout the source on Github and start hacking.
+      icon: doc-sync.svg
+
+    - title: Plugins do it all
+      text: Built on the awesome Caddy Server framework, NextDHCP is all about using and chaining plugins
+      icon: plug-cloud.svg
+
+    - title: Runs everywhere
+      text: Thanks to Go and it's huge architecture support NextDHCP can actually run on almost every platform
+      icon: cpu.png
+
+  #section3:
+    #title: One platform
+    #subtitle: To rule them all
+    #image: illustrations/mockups/app-mockup.png
+    #buttonText: Get started
+    #buttonLink: "#"
+
+  #section4:
+  #  title: Our Clients love us!
+  #  subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #  clients:
+  #  - name: Irma Walters
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: Accountant
+  #    img: 1
+  #  - name: John Bradley
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: Financial Analyst
+  #    img: 2
+  #  - name: Gary Blackman
+  #    quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #    job: HR Manager
+  #    img: 3
+  
+  section5: false
+  
+  footer:
+    # Logo (from /images/logos/___)
+    logo: 
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/nextdhcp/nextdhcp
+      # Icons are from Font Awesome
+      icon: github
+    bulmalogo: true
+    quicklinks:
+      column1:
+        title: "Product"
+        links:
+        - text: Discover features
+          link: /
+        - text: Why choose our product?
+          link: /
+        - text: Compare features
+          link: /
+        - text: Our roadmap
+          link: /
+        - text: AGB
+          link: /agb
+      column2:
+        title: "Docs"
+        links:
+        - text: Get started
+          link: /
+        - text: User guides
+          link: /
+        - text: Admin guide
+          link: /
+        - text: Developers
+          link: /
+      column3:
+        title: "Blog"
+        links:
+        - text: Latest news
+          link: /blog/first
+        - text: Tech articles
+          link: /blog/second
