@@ -1,0 +1,47 @@
+h1, h2, h3, h4 {
+    font-family: "Lato", sans-serif;
+    
+    margin: {
+        top: 17px;
+        bottom: 17px;
+    }
+}
+    
+h1 {
+    font-size: 150%;
+    font-weight: bold;
+} 
+
+h2 {
+    font-size: 140%;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 110%;
+}
+
+h4 {
+    font-size: 100%;
+}
+
+ul  {
+    padding-inline-start: 40px;
+}
+
+li {
+    list-style: disc;
+}
+
+div.highlight {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+blockquote {
+    background-color: #efefef;
+    padding: 13px;
+    border-left: 3px solid #ccc;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}

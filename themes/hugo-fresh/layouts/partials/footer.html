@@ -7,9 +7,13 @@
   <div class="container">
     <div class="columns">
       <div class="column">
+        {{- if $logo }}
         <div class="footer-logo">
           <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
         </div>
+        {{- end }}
+        <u>This website is still work in progress</u><br />
+        More to come soon!
       </div>
       {{- range $quickLinks }}
         <div class="column">

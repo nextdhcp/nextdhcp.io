@@ -14,7 +14,7 @@ params:
     title: DHCP. Just simple.
     subtitle: NextDHCP is a DHCP server chaining middlewares. It's similar to CoreDNS and Caddy
     buttontext: Get started
-    buttonlink: "https://github.com/nextdhcp/nextdhcp"
+    buttonlink: /blog/install/
     image: logos/nextdhcp-wo-text.svg
     # Footer logos (from static/images/logos/clients/___.svg)
     #clientlogos:
@@ -25,12 +25,14 @@ params:
     url: https://github.com/nextdhcp/nextdhcp
   - title: Docs
     sublinks:
+    - title: Introduction
+      url: /blog/intro/
     - title: Getting Started
-      url: /
-    - title: Plugins
-      url: /
-    - title: Contributing
-      url: /
+      url: /blog/install/
+    #- title: Plugins
+    #  url: /
+    #- title: Contributing
+    #  url: /
   - title: Download
     url: https://github.com/nextdhcp/nextdhcp/releases
     button: true
@@ -105,43 +107,38 @@ params:
   section5: false
   
   footer:
-    # Logo (from /images/logos/___)
-    logo: 
-    # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/nextdhcp/nextdhcp
       # Icons are from Font Awesome
       icon: github
-    bulmalogo: true
-    quicklinks:
-      column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+    #bulmalogo: true
+    #quicklinks:
+    #  column1:
+    #    title: "Product"
+    #    links:
+    #    - text: Discover features
+    #      link: /
+    #    - text: Why choose our product?
+    #      link: /
+    #    - text: Compare features
+    #      link: /
+    #    - text: Our roadmap
+    #      link: /
+    #    - text: AGB
+    #      link: /agb
+    #  column2:
+    #    title: "Docs"
+    #    links:
+    #    - text: Get started
+    #      link: /
+    #    - text: User guides
+    #      link: /
+    #    - text: Admin guide
+    #      link: /
+    #    - text: Developers
+    #      link: /
+    #  column3:
+    #    title: "Blog"
+    #    links:
+    #    - text: Latest news
+    #      link: /blog/Intro

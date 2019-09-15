@@ -11,8 +11,6 @@
       <div id="status"></div>
     </div>
 
-    {{ block "main" . }}
-
     {{ partial "single/single.html" . }}
 
     <!-- Back To Top Button -->
@@ -20,8 +18,6 @@
 
     {{ if .Params.sidebar }}
     {{ partial "single/sidebar.html" . }}
-    {{ end }}
-
     {{ end }}
 
     {{ partial "javascript.html" . }}
