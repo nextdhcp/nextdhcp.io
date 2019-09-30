@@ -1,0 +1,3 @@
+[submodule "nextdhcp"]
+	path = nextdhcp
+	url = https://github.com/nextdhcp/nextdhcp
