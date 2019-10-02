@@ -29,6 +29,8 @@ params:
       url: /blog/intro/
     - title: Getting Started
       url: /blog/install/
+    - title: Plugins
+      url: /plugins/
     #- title: Plugins
     #  url: /
     #- title: Contributing

@@ -45,3 +45,26 @@ blockquote {
     margin-top: 13px;
     margin-bottom: 13px;
 }
+
+.plugin-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.plugin {
+    margin: 5px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    border: 1px solid #efefef;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #efefef;
+    }
+}
