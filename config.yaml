@@ -1,4 +1,4 @@
-baseURL: https://nextdhcp.io/
+baseURL: https://nextdhcp.github.io/nextdhcp.io
 languageCode: en-us
 title: NextDHCP
 theme: hugo-fresh
